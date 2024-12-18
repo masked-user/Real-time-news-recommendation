@@ -1,0 +1,13 @@
+flask
+flask-cors
+requests
+kafka-python
+sqlalchemy
+cloud-sql-python-connector
+pymysql
+google-cloud-bigquery
+python-dotenv
+gunicorn
+werkzeug
+google-auth
+kafka-python
