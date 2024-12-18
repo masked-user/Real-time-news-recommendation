@@ -1,10 +1,27 @@
+## Real-Time News Recommendation System
 
-### Project Team Number: 65
-### Team Members:
-      Aditya Sriram Seshadri
-      Nitharshan Coimbatore Venkatesan
-      Parimala Gutta
-## Deployment Steps for the Project  
+The Real-Time News Recommendation System is designed to deliver personalized, up-to-date news content tailored to individual user preferences and behaviors. With the rapid growth of digital platforms as primary news sources, users face an overwhelming flood of information, making it challenging to find content relevant to their interests. This project addresses this issue by leveraging machine learning models, real-time data streaming, and a scalable framework to create a seamless and curated news experience.
+
+
+## Key Features
+1.**Personalized Recommendations**: Uses advanced recommendation algorithms to match news content with individual user preferences.
+2.**Real-Time Processing**: Processes and analyzes news data in real time to ensure recommendations are always relevant and timely.
+3.**User Behavior Analysis**: Tracks user interactions, such as click-through rates and reading patterns, to gain insights into behavior.
+4.**Dynamic Feedback Loop**: Continuously updates and improves recommendations based on user behavior and preferences.
+5.**Scalable Framework**: Designed to handle high volumes of data and users, ensuring consistent performance.
+
+
+## Technical Overview
+The system integrates several robust technologies:
+
+1.**Machine Learning Models**: To predict and recommend content based on user preferences and behavior.
+2.**Real-Time Data Streaming**: Ensures immediate processing and analysis of incoming data.
+3.**Scalable Infrastructure**: Built with technologies like Kafka, BigQuery, and Databricks to handle massive data volumes.
+4.**User Interaction Monitoring**: Tracks and analyzes click-through rates and engagement metrics to improve recommendations dynamically.
+5.**Frontend & Backend Integration**: Seamless flow from user interaction to backend processing and recommendation delivery.
+
+
+## Deployment Steps
 
 ### 1. Kafka Deployment on GKE
 1. **Create a GKE cluster**:  
